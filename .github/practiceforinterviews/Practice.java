@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Dictionary;
 import java.util.Hashtable;
 
+//to practice for tech interviews
 
 public class Practice {
     /**
@@ -80,7 +81,11 @@ public class Practice {
             //Polymorphism - compile time (method overloading), run time (extends base class)
         //Implement exception class for outorrange condition or something similar to know how the IMPLEMENTS, or EXTENDS work.
 
-        //Multithread basic program - pritn 1- 100 in a multi thread program
+        //@Todo: Multithread basic program - pritn 1- 100 in a multi thread program
+        //@Todo: Build a tree/heap
+        //@Todo: Build a linked list and doubly link list
+        //@Todo: Build a stack and queue
+        //@Todo: Solve some string and array problems like merging arrays, finding subset of arrays, etc.
         
     }
 
