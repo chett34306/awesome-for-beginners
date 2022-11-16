@@ -15,7 +15,7 @@ public class OperatorsTest {
     }
 
     @Test
-    @Ignore
+    @Ignore()
     public void Add2Numbers()
     {
         Operators op = new Operators();
@@ -37,5 +37,15 @@ public class OperatorsTest {
         assertEquals(expected, sum);
         assertTrue("add is correct", (sum == expected));
 
+    }
+
+    @Test
+    public void Multiply2Numbers()
+    {
+        int a = 1234567899; int b = 1234567890;
+        int expected = a*b;
+        int sum = Operators.Multiply(a, b);
+        assertEquals(expected, sum);
+        assertTrue("Multiply is correct", (sum == expected));
     }
 }
