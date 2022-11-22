@@ -8,8 +8,8 @@ public class circulararrayrotation {
     
     public static List<Integer> circulararrayrotationnumbers(List<Integer> a, int k, List<Integer> queries)
     {   
-        List<Integer> shiftedarray = new ArrayList();
-        List<Integer> return_indicedarray = new ArrayList();
+        List<Integer> shiftedarray = new ArrayList<>();
+        List<Integer> return_indicedarray = new ArrayList<>();
         for(int i = a.size() - k; i < a.size(); i++ )
         {
             shiftedarray.add(a.get(i));
