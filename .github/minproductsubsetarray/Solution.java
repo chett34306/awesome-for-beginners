@@ -1,3 +1,5 @@
+//https://www.geeksforgeeks.org/minimum-product-subset-array/?ref=lbp
+
 package minproductsubsetarray;
 
 import java.util.ArrayList;
@@ -5,7 +7,6 @@ import java.util.List;
 
 public class Solution {
     
-
     public static void main(String[] args) {
         ArrayList<Integer> a = new ArrayList<Integer>();
         a.add(-1);a.add(-1);a.add(-2);a.add(4);a.add(3);
